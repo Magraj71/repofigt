@@ -1,6 +1,6 @@
 export const surpriseConfig = {
-  teacherName: "Professor Vance",
-  studentName: "Chhavi",
+  teacherName: "Mrs Rooprekha Bhardwaj",
+  studentName: "Bhumi and Taniya",
   subject: "Computer Science & Mentorship",
   occasion: "Birthday", // Explicitly set to Birthday!
   passcode: "2026", // You can change this to their Birth Year (e.g. 1985) or Date (e.g. 1508)

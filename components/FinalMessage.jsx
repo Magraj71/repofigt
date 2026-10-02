@@ -149,7 +149,7 @@ export default function FinalMessage({ onNext }) {
                 >
                   Some lessons end with a final bell.
                   <br />
-                  Some teachers stay in my memory and heart forever.
+                  Some teachers stay in our memory and heart forever.
                 </motion.p>
               </div>
 
@@ -161,7 +161,7 @@ export default function FinalMessage({ onNext }) {
                 className="mt-6 sm:mt-9 pt-5 sm:pt-7 border-t border-purple-100/80 flex flex-col items-center justify-center gap-2"
               >
                 <div className="flex items-center gap-1.5 font-poppins text-[10px] sm:text-xs font-extrabold uppercase tracking-[0.14em] text-purple-700">
-                  <span>Made with love &amp; gratitude by Chhavi</span>
+                  <span>Made with love &amp; gratitude by {surpriseConfig.studentName}</span>
                   <motion.span
                     animate={
                       prefersReducedMotion

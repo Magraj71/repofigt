@@ -113,7 +113,7 @@ export default function WrongPassword({ onRetry }) {
                   Teachers give surprise tests...
                 </p>
                 <p className="mt-2 font-caveat font-bold text-xl sm:text-2xl text-[#703da9] leading-relaxed">
-                  but Chhavi gives surprise websites. 😌
+                  but Bhumi & Taniya give surprise websites. 😌
                 </p>
               </motion.div>
 
@@ -124,7 +124,7 @@ export default function WrongPassword({ onRetry }) {
                 transition={{ delay: 0.65, duration: 0.5 }}
                 className="text-[11px] sm:text-xs text-purple-500/90 font-poppins mb-6 sm:mb-7 leading-relaxed px-1"
               >
-                <span className="font-bold text-purple-700">Hint:</span> Check the year on the lock screen — or ask Chhavi! 💜
+                <span className="font-bold text-purple-700">Hint:</span> Check the year on the lock screen — or ask Bhumi & Taniya! 💜
               </motion.p>
 
               {/* CTA with spring micro-interaction */}

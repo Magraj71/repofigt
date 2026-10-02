@@ -89,7 +89,7 @@ export default function TeacherMessage({ onNext, teacherName, studentName }) {
               <div className="space-y-3 sm:space-y-4 font-caveat text-lg sm:text-xl lg:text-2xl text-[#4a2373] leading-relaxed">
                 <motion.p {...stagger(0.3)}>
                   <Typewriter
-                    text="I may forget a few formulas, some deadlines, and probably a couple of things you told me to remember..."
+                    text="We may forget a few formulas, some deadlines, and probably a couple of things you told us to remember..."
                     delay={700}
                     speed={30}
                   />
@@ -101,7 +101,7 @@ export default function TeacherMessage({ onNext, teacherName, studentName }) {
                 >
                   <span className="absolute -top-2 -left-1 text-lg">✨</span>
                   <Typewriter
-                    text="but I won't forget the way you made learning feel possible."
+                    text="but we won't forget the way you made learning feel possible."
                     delay={2200}
                     speed={35}
                   />
@@ -109,7 +109,7 @@ export default function TeacherMessage({ onNext, teacherName, studentName }) {
 
                 <motion.p {...stagger(0.7)}>
                   <Typewriter
-                    text="Thank you for answering the same question for the third time, for correcting my mistakes, for believing in me when I sometimes didn't believe in myself, and for turning ordinary classes into memories I'll carry with me forever."
+                    text="Thank you for answering the same question for the third time, for correcting our mistakes, for believing in us when we sometimes didn't believe in ourselves, and for turning ordinary classes into memories we'll carry with us forever."
                     delay={3500}
                     speed={25}
                   />
@@ -118,7 +118,7 @@ export default function TeacherMessage({ onNext, teacherName, studentName }) {
                 {/* Highlighted closing block */}
                 <motion.div {...stagger(0.9)} className="relative pt-3 sm:pt-4">
                   <p className="font-poppins font-semibold text-[10px] sm:text-xs text-purple-800 uppercase tracking-[0.16em] mb-2">
-                    On your special birthday, as your student Chhavi, I just want to say:
+                    On your special birthday, as your students {studentName || 'Bhumi & Taniya'}, we just want to say:
                   </p>
 
                   <div className="relative rounded-2xl sm:rounded-3xl bg-gradient-to-br from-purple-100/80 via-pink-50/80 to-amber-50/80 border border-purple-200/70 p-4 sm:p-5 shadow-inner">
@@ -134,7 +134,7 @@ export default function TeacherMessage({ onNext, teacherName, studentName }) {
                       Happy Birthday! 🎉 <br />
                       Thank you for teaching. <br />
                       Thank you for guiding. <br />
-                      And thank you for being someone I&apos;ll always remember. 💜
+                      And thank you for being someone we&apos;ll always remember. 💜
                     </p>
                   </div>
                 </motion.div>

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import Typewriter from '@/components/Typewriter';
 import TiltCard from '@/components/TiltCard';
+import { surpriseConfig } from '@/config/surprise';
 
 const EASE_OUT = [0.22, 1, 0.36, 1];
 
@@ -21,7 +22,7 @@ const CARDS = [
   {
     id: 2,
     badge: '🛡️ Bravery Ribbon',
-    text: 'Surviving my endless doubts! 🙋‍♀️',
+    text: 'Surviving our endless doubts! 🙋‍♀️',
     bg: 'from-emerald-50/90 to-teal-50/70',
     border: 'border-emerald-200/80',
     glow: 'from-emerald-400/40 to-teal-400/30',
@@ -190,7 +191,7 @@ export default function FunTeacherScreen({ onNext }) {
                   transition={{ delay: 0.32, duration: 0.5, ease: EASE_OUT }}
                   className="text-[11px] sm:text-sm text-purple-700/80 font-poppins max-w-md mx-auto leading-relaxed"
                 >
-                  Birthday Special Edition — awarded with all my gratitude, Chhavi
+                  Birthday Special Edition — awarded with all our gratitude, {surpriseConfig.studentName}
                 </motion.p>
               </div>
 
@@ -284,7 +285,7 @@ export default function FunTeacherScreen({ onNext }) {
                   </motion.div>
 
                   <div className="text-[10px] sm:text-xs uppercase font-poppins font-extrabold tracking-[0.16em] text-purple-600 mb-2">
-                    Chhavi&apos;s official birthday rating:
+                    {surpriseConfig.studentName}&apos;s official birthday rating:
                   </div>
 
                   <div className="flex items-center justify-center gap-2 sm:gap-3">

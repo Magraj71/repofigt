@@ -360,7 +360,7 @@ export default function PhotoUploadModal({
                             value={tempName}
                             onChange={(e) => setTempName(e.target.value)}
                             onKeyDown={(e) => e.key === 'Enter' && handleSaveName()}
-                            placeholder="e.g. Professor Vance or Mrs. Sharma"
+                            placeholder="e.g. Mrs Rooprekha Bhardwaj"
                             className="flex-1 px-3.5 py-2.5 rounded-xl border-2 border-purple-200 bg-white text-purple-900 font-medium text-xs focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200 transition-all placeholder:text-purple-300"
                           />
                           <button

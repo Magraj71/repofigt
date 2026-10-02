@@ -100,7 +100,9 @@ export default function SurpriseApp() {
         setPhotos((prev) => ({ ...prev, ...JSON.parse(savedPhotos) }));
       }
       const savedName = localStorage.getItem('teacher_surprise_custom_name');
-      if (savedName) setTeacherName(savedName);
+      if (savedName && savedName !== 'Professor Vance' && savedName !== 'Professor Jonathan Vance') {
+        setTeacherName(savedName);
+      }
     } catch {}
   }, []);
 
@@ -424,7 +426,7 @@ export default function SurpriseApp() {
 
                       {/* Footer hint */}
                       <p className="mt-6 sm:mt-7 text-[10px] sm:text-[11px] font-poppins text-purple-400/80 tracking-wide uppercase">
-                        Made with 💜 just for you by Chhavi
+                        Made with 💜 just for you by {surpriseConfig.studentName}
                       </p>
                     </div>
                   </div>

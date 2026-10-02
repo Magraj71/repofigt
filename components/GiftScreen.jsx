@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import Typewriter from '@/components/Typewriter';
 import TiltCard from '@/components/TiltCard';
+import { surpriseConfig } from '@/config/surprise';
 
 const EASE_OUT = [0.22, 1, 0.36, 1];
 
@@ -114,7 +115,7 @@ export default function GiftScreen({ onSelectGift }) {
                   transition={{ delay: 0.3, duration: 0.5, ease: EASE_OUT }}
                   className="text-base sm:text-lg lg:text-xl font-caveat font-bold text-[#8c57cf]"
                 >
-                  A special token from Chhavi on your birthday 💜
+                  A special token from {surpriseConfig.studentName} on your birthday 💜
                 </motion.p>
               </div>
 

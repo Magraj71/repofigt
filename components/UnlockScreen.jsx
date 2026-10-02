@@ -170,7 +170,7 @@ export default function UnlockScreen({
               className="mt-2 sm:mt-3 text-[11px] sm:text-sm text-purple-700/80 font-poppins font-medium inline-flex items-center gap-1.5"
             >
               <Typewriter
-                text="made with love for your birthday, from Chhavi"
+                text="made with love for your birthday, from Bhumi and Taniya"
                 delay={1500}
                 speed={35}
               />

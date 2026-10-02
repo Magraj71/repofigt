@@ -6,9 +6,9 @@ export const TEACHER_CONFIG = {
   passcodeHint: 'Teacher\'s Birthday: August 15 (Enter 1508)',
 
   // Teacher Profile Information
-  name: 'Professor Jonathan Vance',
-  salutation: 'Prof. Vance',
-  title: 'Distinguished Professor & Academic Mentor',
+  name: 'Mrs Rooprekha Bhardwaj',
+  salutation: 'Mrs. Bhardwaj',
+  title: 'Distinguished Educator & Academic Mentor',
   department: 'Department of Computer Science & Engineering',
   institution: 'Faculty of Sciences & Technology',
   yearsOfService: '25+ Years of Inspiring Minds',
@@ -47,7 +47,7 @@ export const TEACHER_CONFIG = {
       year: '2024',
       caption: 'Sir captivating the auditorium with insights on the future of ethical artificial intelligence.',
       imageUrl: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1200',
-      contributor: 'Chhavi',
+      contributor: 'Bhumi & Taniya',
       aspect: 'aspect-[4/3]'
     },
     {
@@ -57,7 +57,7 @@ export const TEACHER_CONFIG = {
       year: '2023',
       caption: 'Late night in the lab when our team finally cracked the optimization algorithm with Sir’s guidance.',
       imageUrl: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1000',
-      contributor: 'Chhavi',
+      contributor: 'Bhumi & Taniya',
       aspect: 'aspect-[3/4]'
     },
     {
@@ -67,7 +67,7 @@ export const TEACHER_CONFIG = {
       year: '2023',
       caption: 'Sharing words of wisdom and encouragement right before we stepped into the corporate world.',
       imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
-      contributor: 'Chhavi',
+      contributor: 'Bhumi & Taniya',
       aspect: 'aspect-[16/9]'
     },
     {
@@ -77,7 +77,7 @@ export const TEACHER_CONFIG = {
       year: '2022',
       caption: 'Those golden Thursday tea discussions where we learned about life, perseverance, and curiosity.',
       imageUrl: 'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&q=80&w=1000',
-      contributor: 'Chhavi',
+      contributor: 'Bhumi & Taniya',
       aspect: 'aspect-[4/3]'
     }
   ],
@@ -86,14 +86,14 @@ export const TEACHER_CONFIG = {
   initialMessages: [
     {
       id: 1,
-      name: 'Chhavi',
-      role: 'Devoted Student & Mentee',
-      nowAt: 'Always Grateful Student',
+      name: 'Bhumi and Taniya',
+      role: 'Devoted Students & Mentees',
+      nowAt: 'Always Grateful Students',
       category: 'Mentorship',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200',
       date: 'October 2026',
       content:
-        'Respected Teacher, words fail to capture how deeply your mentorship has shaped my journey. You never just handed me the answers; you gave me the confidence and discipline to discover them myself. Thank you for your endless kindness, patience, and boundless belief in me.'
+        'Respected Teacher, words fail to capture how deeply your mentorship has shaped our journey. You never just handed us the answers; you gave us the confidence and discipline to discover them ourselves. Thank you for your endless kindness, patience, and boundless belief in us.'
     }
   ]
 };

@@ -23,8 +23,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "A Birthday Surprise for My Teacher 💜 | From Chhavi",
-  description: "A heartfelt handmade digital scrapbook and surprise experience created by Chhavi for her beloved teacher.",
+  title: "A Birthday Surprise for Mrs Rooprekha Bhardwaj 💜 | From Bhumi and Taniya",
+  description: "A heartfelt handmade digital scrapbook and surprise experience created by Bhumi and Taniya for their beloved teacher Mrs Rooprekha Bhardwaj.",
 };
 
 export default function RootLayout({ children }) {
